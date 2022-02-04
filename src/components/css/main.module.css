@@ -1,0 +1,54 @@
+.header {
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    height: 90px;
+    background: rgba(178, 150, 125, .9);
+    color: #F6BD60;
+    border-radius: 15px;
+}
+
+.mainHeaderImg{
+    width: 100px;
+}
+
+.mainTitle {
+    margin-bottom: 5px;
+}
+
+
+.searchBar {
+    margin: 20px auto 20px auto;
+    width: 550px;
+    background: rgba(247, 237, 226, .8);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.background {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/029/380/737/large/lady-red-bg-33.jpg?1597347897");
+    height: 1150px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 25px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 50px;
+    margin-left: 475px;
+    width: 300px;
+    background: rgba(247, 237, 226, .4);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.footerImg {
+    width: 16px;
+}

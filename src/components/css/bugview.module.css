@@ -1,0 +1,111 @@
+.header {
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(255, 166, 56, .8);
+    width: 600px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.background{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/027/328/993/large/lady-red-bg-11.jpg?1591217584");
+    height: 1150px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 25px;
+}
+
+.infoCard {
+    display: flex;
+    border-radius: 15px;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(255, 166, 56, .8);
+    position: fixed;
+    margin: 100px;
+    margin-left: 300px;
+    padding: 20px;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.3);
+}
+
+.bugTitle {
+    border: 5px solid #e8ff38;
+    border-radius: 15px;
+    margin-top: 20px;
+    transform: rotate(-10deg);
+    background-color: #5e2a10;
+    color: antiquewhite; 
+    font-size: 28px;
+    text-align: center;
+    padding: 5px;
+}
+
+.bugBox {
+background-color:rgba(255, 228, 196, .8);
+border-radius: 15px;
+margin-left: 30px;
+padding: auto;
+width: 275px;
+height: 275px;
+margin-bottom: 20px;
+object-fit: contain;
+}
+
+.bugImage {
+    background-color: transparent;
+    /* margin-bottom: 20px; */
+    /* margin-left: 30px; */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bugInfo {
+    width: auto;
+    height: auto;
+    margin-left: 75px;
+    padding: 20px;
+    border-radius: 25px;
+    background: #fa4141;
+    opacity: 0.9;
+    text-align: left;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.3);
+}
+
+.bugH3 {
+    margin: 10px;
+}
+
+.bugP {
+    word-wrap: break-word;
+    padding-left: 10px;
+}
+
+.bugButton{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+button {
+    background-color: #5e2a10;
+    color: antiquewhite;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #e8ff38;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+}
+
+.homeButton{
+    margin: 600px 540px;
+    position: fixed;
+    width: 240px;
+}

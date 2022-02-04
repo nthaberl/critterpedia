@@ -1,0 +1,117 @@
+.header {
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(102, 222, 255, .8);
+    width: 600px;
+    margin: auto;
+    border-radius: 15px;
+    color: #009572;
+    text-shadow: -1px 0 rebeccapurple, 0 1px rebeccapurple, 1px 0 rebeccapurple, 0 -1px rebeccapurple;
+}
+
+.background {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/026/699/535/large/lady-red-bg-3.jpg?1589475506");
+    height: 1200px; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+    padding-top: 25px;
+}
+
+.infoCard {
+    display: flex;
+    border-radius: 15px;
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+    background-color: rgba(0, 255, 255, .8);
+    border: 3px solid #40b830;
+    position: fixed;
+    margin: 100px;
+    margin-left: 300px;
+}
+
+.seaTitle {
+    border: 5px solid rebeccapurple;
+    border-radius: 15px;
+    margin-top: 20px;
+    transform: rotate(-10deg);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: #FFEB3B;
+    font-size: 28px;
+    text-align: center;
+    padding: 5px;
+}
+
+.seaBox {
+    background-color:rgba(255, 228, 196, .8);
+    border-radius: 15px;
+    margin-left: 30px;
+    width: 275px;
+    height: 275px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    }
+
+.seaImage {
+    background-color: transparent;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.seaInfo {
+    width: auto;
+    height: auto;
+    margin-left: 75px;
+    padding: 20px;
+    border-radius: 25px; 
+    background: #d987ff;
+    opacity: 0.9;
+    text-align: left
+}
+
+.seaH3 {
+    margin: 10px;
+}
+
+.seaP {
+    word-wrap: break-word;
+    padding-left: 10px;
+}
+
+.seaButtonGroup {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.seaButton{
+    border: 2px solid rebeccapurple;
+    background-color: rgb(148,187,233);
+    color: #FFEB3B;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+}
+
+.homeButton{
+    border: 2px solid rebeccapurple;
+    background-color: rgb(148,187,233);
+    color: #FFEB3B;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center;
+    height: 30px;
+    margin: 600px 540px;
+    position: fixed;
+    width: 240px;
+}

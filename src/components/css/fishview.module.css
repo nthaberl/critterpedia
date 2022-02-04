@@ -1,0 +1,119 @@
+.header {
+    padding: 15px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(102, 222, 255, .8);
+    width: 600px;
+    margin: auto;
+    border-radius: 15px;
+    color: #eb8007;
+    text-shadow: -1px 0 #eb0f07, 0 1px #eb0f07, 1px 0 #eb0f07, 0 -1px #eb0f07;
+}
+
+.background {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/026/699/543/large/lady-red-bg-5.jpg?1589475524");
+    height: 1150px; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 25px;
+}
+
+.infoCard {
+    display: flex;
+    border-radius: 15px;
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+    background-color: rgba(102, 222, 255, .8);
+    border: 3px solid #eb8007;
+    position: fixed;
+    margin: 100px;
+    margin-left: 300px;
+}
+
+.fishTitle {
+    border: 5px solid #eb0f07;
+    border-radius: 15px;
+    margin-top: 20px;
+    transform: rotate(-10deg);
+    background-color: #ff5768;
+    color: #FFEB3B;
+    font-size: 28px;
+    text-align: center;
+    padding: 5px;
+}
+
+.fishBox {
+    background-color: rgba(255, 228, 196, .8);
+    border-radius: 15px;
+    margin-left: 30px;
+    width: 275px;
+    height: 275px;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+.fishImage {
+    background-color: transparent;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20%
+}
+
+.fishInfo {
+    width: auto;
+    height: auto;
+    margin-left: 75px;
+    padding: 20px;
+    border: 2px solid #eb8007;
+    border-radius: 25px;
+    background: #ffd857;
+    opacity: 0.9;
+    text-align: left;
+}
+
+.fishH3 {
+    margin: 10px;
+}
+
+.fishP {
+    word-wrap: break-word;
+    padding-left: 10px;
+}
+
+.fishButtonGroup {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+
+.fishButton {
+    border: 2px solid #eb0f07;
+    background-color: #ff5768;
+    color: #FFEB3B;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+}
+
+.homeButton{
+    border: 2px solid #eb0f07;
+    background-color: #ff5768;
+    color: #FFEB3B;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center;
+    margin: 600px 540px;
+    position: fixed;
+    width: 240px;
+}
